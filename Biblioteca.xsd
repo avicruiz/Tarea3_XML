@@ -1,0 +1,29 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<xs:schema xmlns:xs="http://www.w3.org/2001/XMLSchema" elementFormDefault="qualified">
+  <xs:element name="Biblioteca">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element ref="Lista_libros"/>
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="Lista_libros">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element ref="libro" maxOccurs="unbounded"/>
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="libro">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element name="Autor" type="xs:string"/>
+        <xs:element name="Editorial" type="xs:string"/>
+        <xs:element name="ISBN" type="xs:string"/>
+      </xs:sequence>
+      <xs:attribute name="fecha_lanzamiento" type="xs:string" default="Sense definir"/>
+      <xs:attribute name="paginas" type="xs:string" use="required"/>
+      <xs:attribute name="titulo" type="xs:string" use="required"/>
+    </xs:complexType>
+  </xs:element>
+</xs:schema>

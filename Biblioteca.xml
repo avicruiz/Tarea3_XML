@@ -1,0 +1,112 @@
+﻿<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE Biblioteca SYSTEM "Biblioteca.dtd">
+
+  <!-- XML de la práctica, la idea me ha venido de un ejemplo de w3schools, de música y he preferido de libros -->
+  <!-- Información extraída de la página de fnac -->
+	<Biblioteca>	
+		<Lista_libros>	
+			<libro titulo="Ángeles y Demonios" paginas="527">	
+				<Autor>Dam Brown</Autor>	
+				<Editorial>Otnemem</Editorial>	
+			</libro>	
+			<libro titulo="El código Da Vinci" paginas="469">	
+				<Autor>Dam Brown</Autor>	
+				<Editorial>Xirtam</Editorial>	
+			</libro>	
+			<libro titulo="Rompiendo límites" paginas="350">	
+				<Autor>Sebastían Álvaro</Autor>	
+				<Editorial>Omen</Editorial>	
+			</libro>	
+			<libro titulo="Al otro lado de la realidad" paginas="487">	
+				<Autor>Pedro Dalmau</Autor>	
+				<Editorial>Otnemem</Editorial>	
+			</libro>	
+			<libro titulo="Fortaleza Digital" paginas="798">	
+				<Autor>Dan Brown</Autor>	
+				<Editorial>Xirtam</Editorial>	
+			</libro>	
+			<libro titulo="La sombra de la Duda" paginas="1502">	
+				<Autor>María Mendez</Autor>	
+				<Editorial>lomax</Editorial>	
+			</libro>	
+			<libro titulo="Sin Noticias de Gurb" paginas="124">	
+				<Autor>Eduardo Mendoza</Autor>	
+				<Editorial>Yresim</Editorial>	
+			</libro>	
+			<libro titulo="Yo, Julia" paginas="704">	
+				<Autor>Santiago Posteguillo</Autor>	
+				<Editorial>Planeta</Editorial>	
+				<ISBN>9788408197409</ISBN>	
+			</libro>	
+			<libro titulo="Cómo hacer que te pasen cosas buenas" paginas="232">	
+				<Autor>Marián Rojas Estapé</Autor>	
+				<Editorial>Espasa</Editorial>	
+				<ISBN>9788467053302</ISBN>	
+			</libro>	
+			<libro titulo="Los asquerosos" paginas="224">	
+				<Autor>Santiago Lorenzo</Autor>	
+				<Editorial>Blackie books</Editorial>	
+				<ISBN>9788417059996</ISBN>	
+			</libro>	
+			<libro titulo="Serotonina" paginas="264">	
+				<Autor>Michel Houellebecq</Autor>	
+				<Editorial>Anagrama</Editorial>	
+				<ISBN>9788433980229</ISBN>	
+			</libro>	
+			<libro titulo="Reina roja" paginas="568">	
+				<Autor>Juan Gómez-Jurado</Autor>	
+				<Editorial>La trama</Editorial>	
+				<ISBN>9788466664417</ISBN>	
+			</libro>	
+			<libro titulo="La muerte del comendador Libro 2 " paginas="496">	
+				<Autor>Haruki Murakami</Autor>	
+				<Editorial>Tusquets</Editorial>	
+        <ISBN>9788490666326</ISBN>
+			</libro>	
+			<libro titulo="Sapiens. De animales a dioses" paginas="456" fecha_lanzamiento="octubre 2018">	
+				<Autor>Yuval Noah Harari</Autor>	
+				<Editorial>Debate</Editorial>	
+				<ISBN>9788499926223</ISBN>	
+			</libro>	
+			<libro titulo="Memorias de una salvaje" paginas="448" fecha_lanzamiento="noviembre 2018">	
+				<Autor>@Srtabebi</Autor>	
+				<Editorial>Planeta</Editorial>	
+				<ISBN>9788408194453</ISBN>	
+			</libro>	
+			<libro titulo="Cuando nos volvamos a encontrar" paginas="224">	
+				<Autor>Andrea Rodríguez</Autor>	
+				<Editorial>Crossbooks</Editorial>	
+				<ISBN>9788408201304</ISBN>	
+			</libro>	
+			<libro titulo="Fuego y Sangre - Canción de Hielo y Fuego" paginas="896">	
+				<Autor>George R. R. Martin</Autor>	
+				<Editorial>Plaza and janes</Editorial>	
+				<ISBN>9788401022166</ISBN>	
+			</libro>	
+			<libro titulo="El zorro" paginas="288">	
+				<Autor>Frederick Forsyth</Autor>	
+				<Editorial>Plaza and janes</Editorial>	
+				<ISBN>9788401021831</ISBN>	
+			</libro>	
+			<libro titulo="Sempiterno" paginas="232">	
+				<Autor>Defreds</Autor>	
+				<Editorial>Espasa</Editorial>	
+				<ISBN>9788467053708</ISBN>	
+			</libro>	
+			<libro titulo="El método Sakuma" paginas="96">	
+				<Autor>Kenichi Sakuma</Autor>	
+				<Editorial>Kitsune books</Editorial>	
+				<ISBN>9788416788088</ISBN>	
+			</libro>				
+			<libro titulo="Freddie Mercury" paginas="144">	
+				<Autor>Alfonso Casas</Autor>	
+				<Editorial>Random comics</Editorial>	
+				<ISBN>9788417247188</ISBN>	
+			</libro>	
+			<libro titulo="1000 recetas de oro" paginas="728" fecha_lanzamiento="13/11/2018">	
+				<Autor>Karlos Arguiñano</Autor>	
+				<Editorial>Planeta</Editorial>	
+				<ISBN>9788408196242</ISBN>	
+			</libro>				
+		</Lista_libros>	
+	</Biblioteca>	

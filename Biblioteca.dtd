@@ -1,0 +1,10 @@
+<!ELEMENT Biblioteca (Lista_libros)>
+<!ELEMENT Lista_libros (libro+)>
+<!ELEMENT libro (Autor, Editorial, ISBN*)>
+<!ATTLIST libro
+          fecha_lanzamiento CDATA "Sense definir"
+          paginas CDATA #REQUIRED
+          titulo CDATA #REQUIRED>
+<!ELEMENT Autor (#PCDATA)>
+<!ELEMENT Editorial (#PCDATA)>
+<!ELEMENT ISBN (#PCDATA)>
